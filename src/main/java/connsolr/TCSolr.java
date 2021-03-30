@@ -23,7 +23,7 @@ public class TCSolr {
         /*
         连接solr，进行增删查。 4.10.4版本
          */
-//        SolrServer ss =cs.connsolr("http://120.78.230.209:8008/solr8/new_hx");
+//        SolrServer ss =cs.connsolr("http://localhost:8008/solr8/new_hx");
 //        List l1=new ArrayList();
 //        List l2=new ArrayList();
 //        l1.add("id");
@@ -44,7 +44,7 @@ public class TCSolr {
         /*
         连接solr，新版本
          */
-        HttpSolrClient hsc = cs.connsolr("http://120.78.230.209:8008/solr8");///new_hx
+        HttpSolrClient hsc = cs.connsolr("http://localhost:8008/solr8");///new_hx
 //
 //        su.sDelete(hsc);
         su.sAdd(hsc);

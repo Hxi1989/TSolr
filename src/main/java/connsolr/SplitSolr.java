@@ -21,7 +21,7 @@ public class SplitSolr {
 
     public static void main(String []args) throws SolrServerException, IOException {
 
-        String urlString = "http://120.78.230.209:8008/solr8/new_hx";
+        String urlString = "http://loclhost:8008/solr8/new_hx";
         Init(urlString);
         String txt = "全党同志一定要登高望远、居安思危，勇于变革、勇于创新，永不僵化、永不停滞，团结带领全国各族人民决胜全面建成小康社会，奋力夺取新时代中国特色社会主义伟大胜利";
         List<String> results = getAnalysis(txt);
